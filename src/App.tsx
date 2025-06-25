@@ -7,9 +7,8 @@ const AppContainer = styled.div`
 `;
 
 const AppHeader = styled.header`
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  position: relative;
+  width: 100%;
 `;
 
 const SiteTitle = styled.h1`
