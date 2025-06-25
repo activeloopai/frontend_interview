@@ -11,5 +11,5 @@ You will also see any lint errors in the console.
 ## Evaluation criteria
 
 - Code quality
-- Responsivness
+- Responsiveness
 - Product design
