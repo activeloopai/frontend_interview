@@ -1,25 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styled from "styled-components";
+
+const AppContainer = styled.div`
+  background-color: white;
+  min-height: 100vh;
+  padding: 20px;
+`;
+
+const AppHeader = styled.header`
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+`;
+
+const SiteTitle = styled.h1`
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  margin: 0;
+  padding: 0;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppContainer>
+      <AppHeader>
+        <SiteTitle>Activeloop Auction Site</SiteTitle>
+      </AppHeader>
+    </AppContainer>
   );
 }
 
